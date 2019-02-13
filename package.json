@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.16.4",
+    "filestack-js": "0.11.5",
+    "mustache-express": "^1.2.8"
+  }
+}
