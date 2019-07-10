@@ -2,7 +2,7 @@ const client = filestack.init(API_KEY);
 
 const pickButton = document.getElementById('pick');
 pickButton.addEventListener('click', () => {
-    client.pick({
+    const picker = client.picker({
         fromSources: [
             'local_file_system',
             'url',
@@ -18,15 +18,10 @@ pickButton.addEventListener('click', () => {
             'box',
             'onedrive',
             'onedriveforbusiness',
-            'flickr',
-            'evernote',
         ],
-        maxFiles: 1,
-        uploadInBackground: false,
-        onFileSelected: (file) => {
-            console.log(file);
-        },
+        maxFiles: 5,
     });
+    picker.open();
 });
 
 const logoutButton = document.getElementById('logout');

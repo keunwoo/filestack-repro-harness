@@ -136,11 +136,6 @@ express@^4.16.4:
     utils-merge "1.0.1"
     vary "~1.1.2"
 
-filestack-js@0.11.5:
-  version "0.11.5"
-  resolved "https://registry.yarnpkg.com/filestack-js/-/filestack-js-0.11.5.tgz#7136870464267cacb0dbe4d87718d45c1325a93a"
-  integrity sha512-TenaZMRl/knRMeYXucgmeb/I5akLe7/kY2RDcYdA1/qK8uuPhLQxgzNC3GzuJD9m/eRAOYjnfQqX7UnUOqPUbA==
-
 finalhandler@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/finalhandler/-/finalhandler-1.1.1.tgz#eebf4ed840079c83f4249038c9d703008301b105"
